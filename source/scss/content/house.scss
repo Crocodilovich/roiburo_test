@@ -1,0 +1,28 @@
+.house {
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    .house__title path {
+      fill: #fff;
+    }
+
+    .house__box {
+      fill: #5680FF;
+      stroke: #5680FF;
+    }
+  }
+
+  &_active,
+  &:focus,
+  &:active {
+    .house__title path {
+      fill: #fff;
+    }
+
+    .house__box {
+      fill: #415EB7;
+      stroke: #415EB7;
+    }
+  }
+}
